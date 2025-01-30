@@ -8,11 +8,12 @@ arch:
   - amd64
 url: https://ollama.com
 environment:
-  OLLAMA_MODELS: "/config/ollama"
+  OLLAMA_MODELS: "/share/ollama"
   # Keep model loaded in memory
   OLLAMA_KEEP_ALIVE: "-1"
 map:
-  - config:rw
+  #- config:rw
+  - share:rw
 image: docker.io/ollama/ollama
 init: false
 ingress: true
