@@ -1,8 +1,8 @@
-# Ollama Addon for Home Assistant
+# Ollama Addon for Home Assistant by BLENDI
 
 ## Model Directory
 
-All downloaded models are stored `/config/ollama`. Please make sure that you have sufficient space available.
+All downloaded models are stored `/share/ollama`. Please make sure that you have sufficient space available.
 
 ## Ollama Integration
 
@@ -10,7 +10,7 @@ All downloaded models are stored `/config/ollama`. Please make sure that you hav
 
 To integrate with the default [Ollama](https://www.home-assistant.io/integrations/ollama/) integration use the following data:
 
-- URL: `http://76e18fb5-ollama:11434`
+- URL: `http://f708789e-ollama:11434`
 
 ## Note
 
